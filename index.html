@@ -5,114 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 <title>Tech Accessories Store</title>
-
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f4f4;
-}
-
-/* HEADER */
-header {
-    background: #0a2540;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-/* PRODUCTS */
-.container {
-    padding: 20px;
-}
-
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-}
-
-.price {
-    color: green;
-    font-weight: bold;
-}
-
-/* WHATSAPP BUTTON */
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.whatsapp a {
-    text-decoration: none;
-}
-
-.whatsapp img {
-    width: 60px;
-}
-
-/* ARROW + TEXT */
-.arrow-box {
-    position: fixed;
-    bottom: 90px;
-    right: 20px;
-    text-align: center;
-    animation: bounce 1.5s infinite;
-}
-
-.arrow-box span {
-    background: #25D366;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 5px;
-}
-
-.arrow {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid #25D366;
-    margin: auto;
-}
-
-/* ANIMATION */
-@keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-}
-
-/* RESPONSIVE */
-@media(max-width:600px){
-    header h1 {
-        font-size: 20px;
-    }
-}
-</style>
-
+    
 </head>
 <body>
 
 <header>
+   <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+            </nav>
     <h1>Tech Accessories Store</h1>
     <p>Phones & Laptop Accessories at Affordable Prices</p>
+    <div class="container">
+            
+    
 </header>
 
 <div class="container">
@@ -121,41 +27,120 @@ header {
         <div class="card">
             <img src="img/pc.jpg" alt="">
             <h3>Mac Book</h3>
-            <p class="price">K350</p>
+            <p class="price"></p>
         </div>
 
         <div class="card">
             <img src="img/iphone.png" alt="">
             <h3>Iphones</h3>
-            <p class="price">K120</p>
+            <p class="price"></p>
         </div>
 
         <div class="card">
-            <img src="https://via.placeholder.com/200" alt="">
+            <img src="img/iphone.png" alt="">
             <h3>Power Bank</h3>
-            <p class="price">K250</p>
+            <p class="price"></p>
         </div>
 
         <div class="card">
-            <img src="https://via.placeholder.com/200" alt="">
+            <img src="img/iphone.png" alt="">
             <h3>Laptop Bag</h3>
-            <p class="price">K400</p>
+            <p class="price"></p>
         </div>
-
-        <div class="card">
-            <img src="img.png" alt="">
+         <div class="card">
+            <img src="img/iphone.png" alt="">
             <h3>USB Flash Drive 64GB</h3>
-            <p class="price">K150</p>
+            <p class="price"></p>
         </div>
-
         <div class="card">
-            <img src="https://new forder(2)/image/dev.png/200" alt="">
-            <h3>Bluetooth Mouse</h3>
-            <p class="price">K180</p>
+            <img src="img/iphone.png" alt="">
+            <h3>USB Flash Drive 64GB</h3>
+            <p class="price"></p>
         </div>
-
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>Bluetooth Mouse</h3>
+            <p class="price"></p>
+        </div>
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>USB Flash Drive 64GB</h3>
+            <p class="price"></p>
+        </div>
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>USB Flash Drive 64GB</h3>
+            <p class="price"></p>
+        </div>
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>USB Flash Drive 64GB</h3>
+            <p class="price"></p>
+        </div>
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>Bluetooth Mouse</h3>
+            <p class="price"></p>
+        </div>
+        <div class="card">
+            <img src="img/iphone.png" alt="">
+            <h3>USB Flash Drive 64GB</h3>
+            <p class="price"></p>
+        </div>
     </div>
 </div>
+<!-- QUALITY -->
+<section>
+    <h2 class="section-title">Premium Quality Guarantee</h2>
+    <ul>
+        <li>100% Top-grade devices</li>
+        <li>Fully tested & verified before shipping</li>
+        <li>Clean, reliable, and performance-ready gadgets</li>
+        <li>Sourced directly from trusted suppliers in China</li>
+    </ul>
+</section>
+<!-- SHIPPING -->
+<section>
+    <h2 class="section-title">Worldwide Shipping (FREE)</h2>
+    <ul>
+        <li>🚚 DHL Express Shipping INCLUDED in every price</li>
+        <li>🌎 We ship ANYWHERE in the world</li>
+        <li>⏱ Delivery time: 5–7 working days</li>
+        <li>📦 Fast, secure, and trackable shipping</li>
+    </ul>
+</section>
+
+<!-- BULK -->
+<section>
+    <h2 class="section-title">Bulk Orders & Resellers</h2>
+    <ul>
+        <li>Competitive prices for bulk purchases</li>
+        <li>High profit potential for resellers</li>
+        <li>Reliable long-term supply partnership</li>
+    </ul>
+</section>
+
+<!-- WHY US -->
+<section>
+    <h2 class="section-title">Why Choose Us?</h2>
+    <ul>
+        <li>Affordable luxury gadgets</li>
+        <li>Fast global delivery</li>
+        <li>Trusted sourcing network</li>
+        <li>Transparent pricing</li>
+        <li>Perfect for individuals & businesses</li>
+    </ul>
+</section>
+
+<!-- CALL TO ACTION -->
+<section style="text-align:center;">
+    <h2>Take Action Today</h2>
+    <p>
+        Upgrade your lifestyle. Start your business. Secure your deal today.
+    </p>
+    <br>
+    <h3>Ready to own premium tech at unbeatable prices?</h3>
+</section>
 
 <!-- ARROW TEXT -->
 <div class="arrow-box">
